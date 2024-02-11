@@ -1,0 +1,36 @@
+.d-flex {
+    display: flex;        
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.input-custom {
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.button-custom {
+    border: none;
+    background-color: rgb(68, 68, 197);
+    color: white;
+    border-radius: 8px;
+    padding: 9px;
+}
+
+.button-custom:hover{
+    background-color: rgba(68, 68, 197, 0.582);
+    font-weight: bold;
+}
+
+.frm-container {
+   width: 100%;
+   margin: 0 auto;
+   font-family: sans-serif;
+   padding-top: 30px;
+   display: flex;
+   flex-direction: column;   
+   align-items: center;
+}

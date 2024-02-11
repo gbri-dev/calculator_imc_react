@@ -1,9 +1,11 @@
-
+import FormularioImc from './components/Formulario-imc'
+import './main.css'
 function App() {
   return (
     <>
-      <div>
-        <h1>Projeto Calculadora IMC em REACT</h1>
+      <div className='container'>
+        <h1 className='title'>Projeto Calculadora IMC em REACT</h1>
+        <FormularioImc />
       </div>
     </>
   )
